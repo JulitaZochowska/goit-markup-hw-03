@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: rgba(33, 33, 33, 1);
   font-family: "Roboto", sans-serif;
@@ -14,14 +19,21 @@ body {
 }
 footer {
   background: rgba(47, 48, 58, 1);
+  height: 252px;
+  width: 100%;
+  padding-top: 60px;
 }
 .tittle {
   background: rgba(47, 48, 58, 1);
+  height: 600px;
+  width: 100%;
 }
 .address {
   color: var(--main-color-white);
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 h1 {
   color: var(--main-color-white);
@@ -30,6 +42,10 @@ h1 {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
+}
+.logoheader {
+  text-decoration: none;
+  margin-right: 93px;
 }
 .logo {
   text-decoration: none;
@@ -69,6 +85,7 @@ h1 {
   line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
+  margin-right: 46px;
 }
 .interactiveplus:hover,
 .interactiveplus:focus {
@@ -92,6 +109,7 @@ h2 {
 }
 .proffession {
   color: var(--main-color-grey);
+  padding-bottom: 30px;
 }
 .email,
 .telnr {
@@ -106,6 +124,9 @@ h2 {
   line-height: 1.88;
   font-weight: 700;
   text-align: center;
+  height: 30px;
+  width: 161px;
+  margin-top: 30px;
 }
 button {
   background-color: var(--main-color-button);
@@ -151,9 +172,7 @@ footer {
 .loremipsum {
   display: flex;
   margin-top: 94px;
-  margin-bottom: 100px;
-  margin-left: 215px;
-  margin-right: 215px;
+  gap: 30px;
 }
 .loremipsum-items {
   list-style: none;
@@ -168,6 +187,9 @@ footer {
 .portfolio .proffession {
   line-height: 1.88;
 }
+.name {
+  margin-bottom: 4px;
+}
 .portfolio .name {
   font-weight: 700;
   font-size: 18px;
@@ -178,15 +200,20 @@ footer {
 }
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 .profession-set {
   display: flex;
+  gap: 30px;
+  margin-top: 50px;
 }
 .profession-item {
   list-style: none;
 }
 .ourteam {
   display: flex;
+  gap: 30px;
+  margin-top: 50px;
 }
 .ourteam-item {
   list-style: none;
@@ -202,7 +229,99 @@ footer {
 }
 .header {
   display: flex;
-}
-.header-item {
+  justify-content: flex-start;
+  align-items: center;
   list-style: none;
+}
+.secondpartheader {
+  display: flex;
+  justify-content: flex-end;
+}
+.containerinheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+  height: 80px;
+}
+.ourteamblock {
+  height: 648px;
+  background-color: rgba(245, 244, 250, 1);
+  margin-top: 94px;
+}
+.proffession-general {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.ourteam-concent {
+  padding-top: 94px;
+}
+.email {
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+.loremipsummargin {
+  margin-bottom: 94px;
+}
+.namemargin {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  border-left: 1px solid rgba(255, 255, 255, 1);
+  border-right: 1px solid rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.nameindex {
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  justify-content: center;
+}
+.menu-section {
+  margin-top: 94px;
+}
+.portmenu {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
+}
+.pictures {
+  margin-bottom: 94px;
+  margin-top: 50px;
+}
+.wszystkie,
+.strony,
+.aplikacje,
+.dizajn,
+.marketing {
+  border-radius: 4px;
+}
+.aplikacje {
+  width: 114px;
+}
+.wszystkie {
+  width: 121px;
+}
+.strony {
+  width: 93px;
+}
+.dizajn {
+  width: 91px;
+}
+.marketing {
+  width: 128px;
+}
+.proffessionport {
+  padding-bottom: 20px;
 }
