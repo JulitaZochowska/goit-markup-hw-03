@@ -23,6 +23,9 @@ footer {
   width: 100%;
   padding-top: 60px;
 }
+figure > img {
+  vertical-align: middle;
+}
 .tittle {
   background: rgba(47, 48, 58, 1);
   height: 600px;
@@ -34,6 +37,9 @@ footer {
   line-height: 1.71;
   margin-top: 20px;
   margin-bottom: 9px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 3%;
 }
 h1 {
   color: var(--main-color-white);
@@ -124,9 +130,11 @@ h2 {
   line-height: 1.88;
   font-weight: 700;
   text-align: center;
-  height: 30px;
-  width: 161px;
+  height: 50px;
+  width: 200px;
   margin-top: 30px;
+  text-align: center;
+  letter-spacing: 6%;
 }
 button {
   background-color: var(--main-color-button);
@@ -164,6 +172,7 @@ footer {
 .loremipsum h3 {
   line-height: 1.14;
   color: var(--main-color-black);
+  margin-bottom: 10px;
 }
 .loremipsum p {
   line-height: 1.71;
@@ -177,6 +186,7 @@ footer {
 .loremipsum-items {
   list-style: none;
   justify-content: center;
+  width: 270px;
 }
 .ourteam figcaption {
   line-height: 1.19;
@@ -241,10 +251,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
-  height: 80px;
 }
 .ourteamblock {
   height: 648px;
@@ -306,22 +315,29 @@ footer {
 .dizajn,
 .marketing {
   border-radius: 4px;
+  text-align: center;
 }
 .aplikacje {
   width: 114px;
+  height: 38px;
 }
 .wszystkie {
   width: 121px;
+  height: 38px;
 }
 .strony {
   width: 93px;
+  height: 38px;
 }
 .dizajn {
   width: 91px;
+  height: 38px;
 }
 .marketing {
-  width: 128px;
+  width: 121px;
+  height: 38px;
 }
 .proffessionport {
   padding-bottom: 20px;
+  color: var(--main-color-grey);
 }
