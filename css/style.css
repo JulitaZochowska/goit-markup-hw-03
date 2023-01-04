@@ -23,9 +23,6 @@ footer {
   width: 100%;
   padding-top: 60px;
 }
-figure > img {
-  vertical-align: middle;
-}
 .tittle {
   background: rgba(47, 48, 58, 1);
   height: 600px;
@@ -340,4 +337,7 @@ footer {
 .proffessionport {
   padding-bottom: 20px;
   color: var(--main-color-grey);
+}
+figure > img {
+  display: block;
 }
